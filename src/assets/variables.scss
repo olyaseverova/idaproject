@@ -1,0 +1,33 @@
+$white: #ffffff;
+$black: #000000;
+$near-black: #3F3F3F;
+$near-white: #FFFEFB;
+$grey: #EEEEEE;
+$dark-grey: #49485E;
+$light-grey: #B4B4B4;
+$green: #7BAE73;
+$pink: #FF8484;
+
+$rgba-black: rgba(0, 0, 0, 0.04);
+$rgba-black-01: rgba(0, 0, 0, 0.1);
+$rgba-black-02: rgba(0, 0, 0, 0.02);
+
+%flex-wrap-space {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+$tablet-mini-width: 744px;
+$tablet-width: 1108px;
+$desktop-width: 1440px;
+
+@font-face {
+	font-family: "Source Sans Pro Regular";
+	src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Source Sans Pro Bold";
+	src: url(../fonts/SourceSansPro-Bold.ttf);
+}

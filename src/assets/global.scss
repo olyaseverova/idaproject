@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+body {
+  min-width: 396px;
+
+  margin: 0;
+  padding: 2.2%;
+
+  color: $near-black;
+  font-family: "Source Sans Pro Regular", sans-serif;
+}
+
+.nav {
+  @extend %flex-wrap-space;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
